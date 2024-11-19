@@ -1,0 +1,24 @@
+.firstdiv {
+    color: blue;
+}
+
+.seconddiv {
+    color: red;
+}
+
+/* * {
+    color: brown;
+} */
+
+h2 + ul {
+    color: brown;
+}
+
+h2 + ol {
+    color: rgb(91, 91, 240);
+}
+
+.section_class1 {
+    border: 5px dotted purple;
+    padding: 20px;
+}

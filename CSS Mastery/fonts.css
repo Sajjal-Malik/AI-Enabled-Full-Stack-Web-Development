@@ -1,0 +1,19 @@
+ /* Type Selector for h1: Change font style and size */
+ h1 {
+    font-family: 'Roboto', sans-serif; /* Bold sans-serif font */
+    font-size: 36px; /* Large font size */
+    color: #2c3e50; /* Dark color */
+    text-align: center;
+}
+
+/* Type Selector for p: Change font style and size */
+p {
+    font-family: 'Open Sans', sans-serif; /* Clean, modern sans-serif font */
+    font-size: 18px; /* Medium font size */
+    color: #34495e; /* Slightly lighter dark color */
+    line-height: 1.5; /* Improved readability */
+}
+
+#two {
+    font-size: 2.em;
+}

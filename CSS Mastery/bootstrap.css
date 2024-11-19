@@ -1,0 +1,17 @@
+.danger_button {
+    color: red;
+}
+
+.agree_button {
+    color: green;
+}
+
+.warning_button {
+    background-color: gray;
+    color: yellow;
+}
+
+.neutral_button {
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,121 @@
+/* Universal Selector: Applies box-sizing to all elements to include padding and border in element's total width and height */
+* {
+    box-sizing: border-box;
+}
+
+/* Type Selector: Styling the body element */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Type Selector: Styling header elements */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Descendant Selector: Styling unordered list items inside the nav */
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+/* Pseudo-class Selector: Styling navigation links on hover */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ID Selector: Styling the section with the ID 'intro' */
+#intro {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Class Selector: Highlighting paragraphs with the 'highlight' class */
+.highlight {
+    color: #ff6347; /* Tomato color */
+    font-style: italic;
+}
+
+/* Element Selector: Styling all <h2> elements */
+h2 {
+    color: #2e8b57; /* Sea green */
+    margin-bottom: 10px;
+}
+
+/* Class Selector: Styling spans with a specific class */
+.bold-text {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Type Selector: Styling the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+/* Type Selector: Styling table headers */
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Type Selector: Styling table data cells */
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Type Selector: Styling the blockquote */
+blockquote {
+    font-style: italic;
+    border-left: 5px solid #4CAF50;
+    margin: 10px 0;
+    padding-left: 15px;
+}
+
+/* Type Selector: Styling the image */
+img {
+    display: block;
+    margin: 10px 0;
+    max-width: 100%; /* Ensures the image is responsive */
+}
+
+/* Type Selector: Styling the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Pseudo-class Selector: Styling footer anchor link on hover */
+footer a:hover {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+/* Type Selector: Styling buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Pseudo-class Selector: Changing button appearance when hovered */
+button:hover {
+    background-color: #45a049;
+}

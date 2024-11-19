@@ -1,0 +1,16 @@
+body {
+    background-image: url(images.jpeg);
+}
+
+div {
+    background: grey;
+    border: black;
+    border-width: thick;
+    border-style: dotted;
+    padding-left: 20px;
+}
+
+p{
+    color: yellow;
+}
+
